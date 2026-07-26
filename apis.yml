@@ -1,23 +1,61 @@
 aid: eagle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eagle.png
 name: Eagle
-description: Eagle is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Eagle is a next-generation engineering firm founded in 2025 and based in New York City
+  that builds AI-powered software for civil, structural, and MEP (mechanical, electrical, plumbing)
+  engineers designing critical infrastructure. Rather than selling its technology, Eagle acquires and
+  transforms engineering firms directly, pairing frontier design-automation, knowledge-infrastructure,
+  and quality-control tooling with world-class engineers to deliver faster, higher-quality infrastructure
+  design. It is a seed-stage portfolio company of Lightspeed Venture Partners. Eagle publishes no public
+  API, developer portal, or SDK today; this profile captures verified company identity only.
 url: https://raw.githubusercontent.com/api-evangelist/eagle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: not-an-api-provider
+x-website: https://www.eagleeng.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Engineering
+- Civil Engineering
+- Structural Engineering
+- MEP Engineering
+- Infrastructure
+- Design Automation
+- Artificial Intelligence
 apis: []
+common:
+- type: Website
+  url: https://www.eagleeng.com/
+- type: Login
+  url: https://app.eagleeng.com/login
+- type: Support
+  url: mailto:info@eagleeng.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/eagleengtech
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
